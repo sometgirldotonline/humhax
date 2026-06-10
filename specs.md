@@ -18,3 +18,12 @@ layout: default
 Extracted from a PCAP I made using a RasPi
 
 `Opera/9.80 (Linux mips; Opera TV Store/5954; HbbTV/1.2.1 (+PVR; Humax; hdr3000t; AUTFAD 1.00.53; 1.0.0; wired; UX-PRISM--OP-NONE); ce-html/1.0) Presto/2.12.407 Version/12.50`
+
+
+## SoC Specifications
+* **CPU:** 1x MIPS, likely 32-bits, 1.30Ghz, 3000 DMIPS
+* **RAM:** DDR3
+* **GPU:** OpenGL 2.0
+* **Interfaces:** Ethernet, USB, SATA, SDIO
+* **Node:** 40nm
+Source: [wi-cat](https://wikidevi.wi-cat.ru/Broadcom/SoC#:~:text=BCM7241)
