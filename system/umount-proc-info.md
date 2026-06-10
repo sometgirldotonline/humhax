@@ -111,7 +111,9 @@ The output shows `/mnt/hd1` as the active target partition. You can see the expl
 ## Partition 2 (hmx_int_stor1)
 
 This second log targets `/mnt/hd2`.
+
 nice politics reference lol
+
 also what the fuck is an LS doing at the top huh
 ```text
 /mnt/hd2
