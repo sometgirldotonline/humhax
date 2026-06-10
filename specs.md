@@ -26,4 +26,5 @@ Extracted from a PCAP I made using a RasPi
 * **GPU:** OpenGL 2.0
 * **Interfaces:** Ethernet, USB, SATA, SDIO
 * **Node:** 40nm
+
 Source: [wi-cat](https://wikidevi.wi-cat.ru/Broadcom/SoC#:~:text=BCM7241)
