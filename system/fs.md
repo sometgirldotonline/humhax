@@ -110,6 +110,7 @@ I have not yet been able to dump the onboard [Spansion Flash](/specs.html)
     <div class="partition-bar">
         <a class="partition p1" href="#partition-hmx_int_stor">
             <div>hmx_int_stor</div>
+            <div>/mnt/hd1</div>
             <div>Partition 1</div>
             <div>1.1 GB Ext4</div>
             <div><small>mounted as: hmx_int_stor</small></div>
@@ -117,6 +118,7 @@ I have not yet been able to dump the onboard [Spansion Flash](/specs.html)
         
         <a class="partition p2" href="#partition-hmx_int_stor1">
             <div>hmx_int_stor</div>
+            <div>/mnt/hd2</div>
             <div>Partition 2</div>
             <div>478 GB Ext4</div>
             <div><small>mounted as: hmx_int_stor1</small></div>
@@ -142,7 +144,7 @@ I have not yet been able to dump the onboard [Spansion Flash](/specs.html)
     </div>
 </div>
 
-## Partition 1: hmx_int_stor {#partition-hmx_int_stor}
+## Partition 1: hmx_int_stor (/mnt/hd1) {#partition-hmx_int_stor}
 ```
 └── hmx_int_stor
     ├── .cache
@@ -214,7 +216,7 @@ Notes:
 - The `.dat` files appear to contain EPG data in a proprietary format. I am not publishing them here, if you'd like to probe at them, join the [Discord](/discord.html)
 - `.umount-proc-info` is probably the most interesting thing from this dump, and it gets its own page: [umount-proc-info](/system/umount-proc-info.html)
 
-## Partition 2: hmx_int_stor1 {#partition-hmx_int_stor1}
+## Partition 2: hmx_int_stor (/mnt/hd2) {#partition-hmx_int_stor1}
 ```
 ├── .1496998823.db
 ├── .cache
@@ -253,7 +255,7 @@ Notes:
     - `.njs`: unclear
 - `Recordings` and `Media` are accessible over SMB.
 
-## Partition 3: hmx_int_stor2 {#partition-hmx_int_stor2}
+## Partition 3: hmx_int_stor {#partition-hmx_int_stor2}
 ```
 .
 └── hmx_int_stor2

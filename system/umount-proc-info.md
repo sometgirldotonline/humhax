@@ -7,7 +7,7 @@ parent: System
 The device appears to be designed to dump running processes to the disk during a shutdown sequence. This behavior is evident from the `.umount-proc-info` files present in two distinct [partitions](/system/fs.html).
 
 
-## Partition 1 (hmx_int_stor)
+## Partition 1 (hmx_int_stor): /mnt/hd1
 
 The output shows `/mnt/hd1` as the active target partition. You can see the explicit commands responsible for appending this data via PID `21155`.
 
@@ -108,7 +108,7 @@ The output shows `/mnt/hd1` as the active target partition. You can see the expl
 
 ```
 
-## Partition 2 (hmx_int_stor1)
+## Partition 2 (hmx_int_stor): /mnt/hd2
 
 This second log targets `/mnt/hd2`.
 
