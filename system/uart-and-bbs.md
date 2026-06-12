@@ -5,6 +5,8 @@ parent: System
 ---
 # UART and BBS
 ![UART and BBS](/assets/uwuart.png)
+
+i'm yet to test any of these because its past midnight, i do NOT want to be soldering at this time, i only probed these with my shitty multimeter
 ## UART
 There are two sets of UART on the board. Where each set goes is unknown, but here are the determined specifications:
 ### UART0
