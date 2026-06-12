@@ -1,6 +1,8 @@
 ---
 title: Home
 layout: home
+# how do we make this be the first item?
+nav_order: 1
 ---
 
 # Humhax
